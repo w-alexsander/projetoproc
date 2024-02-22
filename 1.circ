@@ -192,38 +192,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(560,260)" to="(560,270)"/>
-    <wire from="(560,310)" to="(560,320)"/>
-    <wire from="(560,260)" to="(580,260)"/>
-    <wire from="(560,320)" to="(580,320)"/>
-    <wire from="(260,260)" to="(280,260)"/>
-    <wire from="(150,320)" to="(170,320)"/>
-    <wire from="(150,240)" to="(260,240)"/>
-    <wire from="(260,240)" to="(260,260)"/>
-    <wire from="(170,300)" to="(280,300)"/>
-    <wire from="(170,300)" to="(170,320)"/>
-    <wire from="(460,270)" to="(560,270)"/>
-    <wire from="(460,310)" to="(560,310)"/>
-    <wire from="(150,280)" to="(280,280)"/>
-    <comp lib="0" loc="(150,320)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(580,260)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(580,320)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(270,260)" name="main"/>
-    <comp lib="0" loc="(150,280)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(150,240)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
+    <comp loc="(490,360)" name="main"/>
   </circuit>
 </project>
